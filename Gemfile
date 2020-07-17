@@ -9,6 +9,8 @@ gem 'rails', '~> 6.0.1'
 
 
 gem 'sqlite3'
+gem 'dotenv-rails'
+
 
 
 
