@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 #users here?
 
 
-get '/software/:id', to 'software#show'
+get '/software/:id', to: 'software#show'
 
 
 
