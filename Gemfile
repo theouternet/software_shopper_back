@@ -56,3 +56,9 @@ gem "faker", "~> 2.8"
 gem "rest-client"
 
 gem "figaro"
+
+
+
+
+gem 'webpacker'
+gem 'react-rails'

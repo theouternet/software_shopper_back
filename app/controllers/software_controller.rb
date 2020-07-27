@@ -15,4 +15,16 @@ def show
     
 end 
 
+
+
+def list 
+    url = BASEURL + "(type=software)" + "?apiKey=" + ENV.fetch('API_KEY') + "&format=json"
+    response = RestClient.get("#{url}")
+    listParsed = JSON.parse(response)
+
+    render json: listParsed
+
+end 
+
+
 end 

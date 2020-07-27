@@ -6,6 +6,6 @@ Rails.application.routes.draw do
 
 get '/software/:id', to: 'software#show'
 
-
+get '/software', to: 'software#list'
 
 end
