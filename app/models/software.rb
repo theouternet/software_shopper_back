@@ -1,4 +1,4 @@
-class Game < ApplicationRecord
+class Software < ApplicationRecord
     has_many :software_categories
     has_many :categories, through: :software_categories
 
